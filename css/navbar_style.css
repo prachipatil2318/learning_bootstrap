@@ -1,0 +1,6 @@
+@media (min-width: 768px) and (max-width: 1200px) {
+    main {
+        padding-left: 65px !important;
+        padding-right: 65px !important;
+    }
+}
