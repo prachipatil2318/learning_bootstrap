@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/navbar_style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
-</head>
-<body>
-    <!-- Header -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe"
+            crossorigin="anonymous">
+    </head>
+    <body>
+        <!-- Header -->
         <header>
             <nav class="navbar md:navbar-expand bg-primary  rounded-5"
-                data-bs-theme="dark">
+                data-bs-theme="light">
                 <div class="container-fluid">
                     <!-- <img src="images/logo.png" class="img-fluid" alt="" height="50px" width="120px"> -->
-                    <a class="navbar-brand" href="#">My Doc</a>
+                    <a class="navbar-brand" href="#">CityCare Hospital</a>
                     <button class="btn-icon navbar-toggler" type="button"
                         data-bs-toggle="drawer" data-bs-target="#navbarDrawer"
                         aria-controls="navbarDrawer" aria-expanded="false"
@@ -149,53 +153,140 @@
 
         <!-- Vertical emergency button -->
         <section>
-            <div class="sidebar position-fixed">
+            <div class="sidebar position-fixed"
+                style="top: 40%; right: 0px;  z-index: 999">
                 <h1
                     class=" bg-danger fg-white"
-                    style="cursor: pointer; width: 45px; text-align: center; color: white; font-weight:100; text-transform: capitalize; right: 0; left: auto; top: 40%; z-index: 999;">E<br>m<br>e<br>r<br>g<br>e<br>n<br>c<br>y</h1>
+                    style="cursor: pointer; width: 45px; text-align: center; color: white; font-weight:100; text-transform: capitalize; font-family: 'Times New Roman', Times, serif;">E<br>m<br>e<br>r<br>g<br>e<br>n<br>c<br>y</h1>
             </div>
         </section>
 
         <!-- Cards -->
-        <main class="d-flex flex-wrap px-5 justify-content-center gap-4 flex-wrap">
-            <section class="card bg-primary" style="max-width: 220px; width:100%;">
+        <main
+            class="d-flex flex-wrap px-5 justify-content-evenly gap-4">
+            <section class="card"
+                style="max-width: 220px; width:100%; background-color: transparent; border: none;">
                 <div class="card-body w-100">
-                    <img src="images/book_appointment.webp" class="w-100 object-fit-content" alt="" style="width: 100%;">
-                    
-                    <h1 class="align-items-center"><a href="#" class="theme-primary fs-xl" style="text-decoration: none; font-family: cursive; color: whitesmoke;">Book an Appointment</a></h1>
+                    <img src="images/Healthcare Appointment Scheduler.png"
+                        class="w-100 object-fit-content" alt
+                        style="width: 100%;">
+
+                    <h1 class="align-items-center"><a href="#"
+                            class="theme-primary fs-xl"
+                            style="text-decoration: none; font-family: cursive; color: #00307a;">Book
+                            an Appointment</a></h1>
                 </div>
             </section>
 
-            <section class="card  bg-primary" style="max-width: 220px; width: 100%;">
+            <section class="card  bg-primary"
+                style="max-width: 220px; width: 100%; background-color: transparent; border: none;">
                 <div class="card-body">
-                    <img src="images/dignosticlab.webp" class="w-100 object-fit-content" alt=""  style="width: 100%;">
-                    
-                    <h1 class="align-items-center"><a href="#" class="theme-primary fs-xl" style="text-decoration: none; font-family: cursive; color: whitesmoke;"">Diagnostic Services</a></h1>
+                    <img src="images/Blue Medical Diagnostics Laboratory.png"
+                        class="w-100 object-fit-content" alt
+                        style="width: 100%;">
+
+                    <h1 class="align-items-center"><a href="#"
+                            class="theme-primary fs-xl"
+                            style="text-decoration: none; font-family: cursive; color: #00307a;">Diagnostic
+                            Services</a></h1>
                 </div>
             </section>
 
-            <section class="card  bg-primary" style="max-width: 220px; width: 100%;">
+            <section class="card  bg-primary"
+                style="max-width: 220px; width: 100%; background-color: transparent; border: none;">
                 <div class="card-body">
-                    <img src="images/heart.webp" class="w-100 object-fit-content" alt=""  style="width: 100%;">
-                    
-                    <h1 class="align-items-center"><a href="#" class="theme-primary fs-xl" style="text-decoration: none; font-family: cursive; color: whitesmoke;">Wellness Packages</a></h1>
+                    <img src="images/Heart Shield Wellness Emblem.png"
+                        class="w-100 object-fit-content" alt
+                        style="width: 100%;">
+
+                    <h1 class="align-items-center"><a href="#"
+                            class="theme-primary fs-xl"
+                            style="text-decoration: none; font-family: cursive; color: #00307a;">Wellness
+                            Packages</a></h1>
                 </div>
             </section>
 
-        <section class="card  bg-primary" style="max-width: 220px; width: 100%;">
+            <section class="card  bg-primary"
+                style="max-width: 220px; width: 100%; background-color: transparent; border: none;">
                 <div class="card-body">
-                    <img src="images/international_patients.webp" class="w-100 object-fit-content" alt=""  style="width: 100%;">
-                    
-                    <h1 class="align-items-center"><a href="#" class="theme-primary fs-xl" style="text-decoration: none; font-family: cursive; color: whitesmoke;">International Patients</a></h1>
+                    <img src="images/Global Medical Travel Emblem.png"
+                        class="w-100 object-fit-content" alt
+                        style="width: 100%;">
+
+                    <h1 class="align-items-center"><a href="#"
+                            class="theme-primary fs-xl"
+                            style="text-decoration: none; font-family: cursive; color: #00307a;">International
+                            Patients</a></h1>
                 </div>
             </section>
         </main>
-        
 
+        <!-- Speciality section -->
 
+        <section>
+            <main class="speciality bg-primary rounded-5"
+                style="min-height: 400px; width: 100%;">
+                <h1 style="text-align: center; color:#00307a; padding-top: 20px;">Our Speciality</h1>
+                <div class="cards d-flex flex-wrap p-3  justify-content-evenly gap-4" >
+                    <section class="card bg-primary border-0"
+                        style="max-width: 250px; width: 100%; background-color: transparent; height: 280px; overflow: hidden;">
+                        <div class="card-body rounded-5" style="background-image: url(images/cardiologist.jpg); background-size: cover; height:100%; width:100%; background-repeat:norepeat; background-position: center;">
+                            <!-- <img src="images/cardiologist.jpg"
+                                class="w-100 object-fit-content" alt
+                                style="width: 100%; height: fit-content;"> -->
 
-    
+                            
+                        </div>
+                        <h1 class="theme-primary fs-xl" style=" text-decoration: none; font-family: cursive; color: #00307a; display:flex; justify-content: center; align-items:flex-end">Cardiologist</h1>
+                    </section>
 
-    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
-</body>
+                    <section class="card bg-primary border-0"
+                        style="max-width: 250px; width: 100%; background-color: transparent; height: 280px; overflow: hidden;">
+                        <div class="card-body rounded-5" style="background-image: url(images/dermatologist.jpg); background-size: cover; background-position: center; height:100%; width:100%; background-repeat:norepeat;">
+                            <!-- <img src="images/dermatologist.jpg"
+                                class="w-100 object-fit-content" alt 
+                                style="width: 100%; height: fit-content;"> -->
+
+                            
+                        </div>
+                        <h1 class="theme-primary fs-xl" style=" text-decoration: none; font-family: cursive; color: #00307a; display:flex; justify-content: center; align-items:flex-end">Dermatologist</h1>
+                    </section>
+
+                    <section class="card bg-primary border-0"
+                        style="max-width: 250px; width: 100%; background-color: transparent; height: 280px; overflow: hidden;">
+                        <div class="card-body rounded-5" style="background-image: url(images/gynecologist.jpg); background-size: cover; background-position: center; height:100%; width:100%; background-repeat:norepeat;">
+                            <!-- <img src="images/gynecologist.jpg"
+                                class="w-100 object-fit-content" alt
+                                style="width: 100%; height: fit-content;"> -->
+
+                            
+                        </div>
+                        <h1 class="theme-primary fs-xl" style=" text-decoration: none; font-family: cursive; color: #00307a; display:flex; justify-content: center; align-items:flex-end">Gynecologist</h1>
+                    </section>
+                    
+                    <section class="card bg-primary border-0"
+                        style="max-width: 250px; width: 100%; background-color: transparent; height: 280px; overflow: hidden;">
+                        <div class="card-body rounded-5" style="background-image: url(images/pediatrition.jpg); background-size: cover; background-position: center; height:100%; width:100%; background-repeat:norepeat;">
+                            <!-- <img src="images/pediatrition.jpg"
+                                class="w-100 object-fit-content" alt
+                                style="width: 100%; height: fit-content;"> -->
+
+                            
+                        </div>
+                        <h1 class="theme-primary fs-xl" style="text-decoration: none; font-family: cursive; color: #00307a; display:flex; justify-content: center; align-items:flex-end">Pediatrician</h1>
+                    </section>
+
+                    
+
+                    
+                </div>
+
+            </main>
+        </section>
+
+        <script type="module"
+            src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL"
+            crossorigin="anonymous"></script>
+    </body>
 </html>
